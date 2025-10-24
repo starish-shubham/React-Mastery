@@ -1,6 +1,7 @@
 import Footer from "./components/Footer";
 import Greet from "./components/Greet";
 import Header from "./components/Header";
+import JsxRules from "./components/JsxRules";
 import MainComponent from "./components/MainComponent";
 import WelcomeMessage from "./components/WelcomeMessage";
 
@@ -12,7 +13,8 @@ const App = () => {
       <MainComponent />
       <Footer /> */
       }
-      <WelcomeMessage />
+      {/* <WelcomeMessage /> */}
+      <JsxRules />
     </>
   )
 }
