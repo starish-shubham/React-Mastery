@@ -1,11 +1,15 @@
+import Footer from "./components/Footer";
 import Greet from "./components/Greet";
+import Header from "./components/Header";
+import MainComponent from "./components/MainComponent";
 
 const App = () => {
   // return <section>Hello Shubham i am from Reactjs Monster</section>
   return (
     <>
-      <Greet />
-      <section>Hello Shubham i am from Reactjs Monster New</section>
+      <Header />
+      <MainComponent />
+      <Footer />
     </>
   )
 }
