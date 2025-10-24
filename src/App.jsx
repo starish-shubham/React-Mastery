@@ -2,14 +2,17 @@ import Footer from "./components/Footer";
 import Greet from "./components/Greet";
 import Header from "./components/Header";
 import MainComponent from "./components/MainComponent";
+import WelcomeMessage from "./components/WelcomeMessage";
 
 const App = () => {
   // return <section>Hello Shubham i am from Reactjs Monster</section>
   return (
     <>
-      <Header />
+      {/* <Header />
       <MainComponent />
-      <Footer />
+      <Footer /> */
+      }
+      <WelcomeMessage />
     </>
   )
 }
