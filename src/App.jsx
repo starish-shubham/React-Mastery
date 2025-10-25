@@ -3,6 +3,7 @@ import Greet from "./components/Greet";
 import Header from "./components/Header";
 import JsxRules from "./components/JsxRules";
 import MainComponent from "./components/MainComponent";
+import PracticeJsx from "./components/PracticeJsx";
 import WelcomeMessage from "./components/WelcomeMessage";
 
 const App = () => {
@@ -14,7 +15,9 @@ const App = () => {
       <Footer /> */
       }
       {/* <WelcomeMessage /> */}
-      <JsxRules />
+      {/* <JsxRules /> */}
+      {/* <PracticeJsx /> */}
+      <Greet />
     </>
   )
 }
