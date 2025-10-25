@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import JsxRules from "./components/JsxRules";
 import MainComponent from "./components/MainComponent";
 import PracticeJsx from "./components/PracticeJsx";
+import ProductList from "./components/ProductList";
+import UserList from "./components/UserList";
 import WelcomeMessage from "./components/WelcomeMessage";
 
 const App = () => {
@@ -17,7 +19,9 @@ const App = () => {
       {/* <WelcomeMessage /> */}
       {/* <JsxRules /> */}
       {/* <PracticeJsx /> */}
-      <Greet />
+      {/* <Greet /> */}
+      {/* <UserList /> */}
+      <ProductList />
     </>
   )
 }
